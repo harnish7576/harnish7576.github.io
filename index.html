@@ -8,6 +8,9 @@
 	</head>
 	<body class="is-preload">
 
+		<!-- Preloader -->
+			<div id="preloader"></div>
+
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
@@ -95,6 +98,7 @@
 								<p>Histogram Analysis and Density Estimation with Pandas.</p>
 							</article>
 						</div>
+						
 						<div style="display: flex; flex-direction: row; align-items: center; line-height: 0px;">
 							<h1 style="font-size: 5em; color: #49bf9d; padding-top: 40px">15+</h1>
 							<div style="padding-left: 30px;">
@@ -171,6 +175,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		
+
+
+			<script>
+				var loader = document. getElementById ("preloader");
+		
+				window.addEventListener('load', function() {
+				  document.getElementById('preloader').classList.add('loaded');
+				});
+		  
+			  </script>
 
 	</body>
 </html>
